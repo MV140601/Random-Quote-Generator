@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to left bottom,rgb(109, 216, 109),rgb(207, 178, 226) )
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+  }
+  .heading{
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .quote{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .author{
+    font-size: 20px;
+    margin: 10px;
+  }
+  .btn{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgba(248, 251, 252, 0.6);
+   width: 200px;
+   background-color: rgba(243, 246, 247, 0.3);
+   cursor: pointer;
+  }
+  .btn:hover{
+    background-color: rgba(235, 243, 243,0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  }
